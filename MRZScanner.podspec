@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.license  = { :type => "MIT", :file => "LICENSE.md" }
 
   s.source   = { :git => "https://github.com/naveenkp-alt/MRZScanner.git", :tag => "v#{s.version}" }
-  s.source_files = "../QKMRZScanner/**/*.{swift}"
-  s.resources    = "../QKMRZScanner/Supporting Files/tessdata"
+  s.source_files = "QKMRZScanner/**/*.{swift}"
+  s.resources    = "QKMRZScanner/Supporting Files/tessdata"
   s.frameworks   =  "Foundation", "UIKit", "AVFoundation", "CoreImage", "AudioToolbox"
   
   s.dependency "QKMRZParser"
